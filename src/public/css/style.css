@@ -27,15 +27,32 @@ body {
     color: white;
 }
 
-.create-user-container {
+.create-user-container,
+.edit-user-container {
     padding: 15px;
     text-align: center;
+}
+
+.create-user-container>form>div:first-child {
+    margin-bottom: 20px;
+}
+
+.edit-user-container>form>div:first-child {
+    margin-bottom: 20px;
 }
 
 .create-user-container label {
     display: block;
 }
 
+.edit-user-container label {
+    display: block;
+}
+
 .create-user-container .btn-submit {
+    margin-top: 15px;
+}
+
+.edit-user-container .btn-submit {
     margin-top: 15px;
 }
