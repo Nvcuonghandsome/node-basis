@@ -56,3 +56,15 @@ body {
 .edit-user-container .btn-submit {
     margin-top: 15px;
 }
+
+.upload-file-container {
+    padding: 15px;
+}
+
+.upload-file-container label {
+    display: block;
+}
+
+.upload-file-container .btn-save {
+    margin-top: 20px;
+}
